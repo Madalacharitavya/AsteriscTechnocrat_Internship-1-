@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+   <nav>
+    <div class="container nav-container">
+        <a href="" class="logo"><h3>Charitavya Madala</h3></a>
+        <u1 class="navlinks">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li>
+                <button class="Mood-icon Moon"><i class="fa fa-moon"></i></button>
+                <button class="Mood-icon Sun"><i class="fa fa-sun"></i></button>
+            </li>
+        </u1>
+
+    </div>
+   </nav>
+   <header id="Home">
+    <div class=".container.header-container">
+        <div class="header-left">
+            <h3>Hello, I'm</h3>
+            <h1>Charitavya Madala</h1>
+            <p>
+                <br>I am pursuing a Bachelor of Technology in<br>SRM University of <br>Engineering and Technology,AP.<br> I am an intern at Asterisc Technocrat Pvt.Ltd.
+            </p>
+        </div>
+        <div class="social-links">
+            <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Madalacharitavya?tab=repositories"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/nagacharitavya-madala-6a302a220/"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <a href="./charitavya.pdf" class="btn">Resume</a>
+        <div class="header-right">
+            <div class="profession-content">
+                <div class="profession-box">
+                    <div class="profession" style="--r:0;">
+                        <i class="fa fa-code"></i>
+                        <h3>Web Developer</h3>
+                    </div>
+                    <div class="profession" style="--r:1;">
+                        <i class="fa fa-video"></i>
+                        <h3>Vedio Editor</h3>
+                    </div>
+                    <div class="profession" style="--r:2;">
+                        <i class="fab fa-code"></i>
+                        <h3>Python Developer</h3>
+                    </div>
+                    <div class="circle"></div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+            <div class="header-img">
+                <img src="./ammu3.jpeg">
+            </div>
+        </div>
+    </div>
+   </header>
+   <section id="About">
+    <div class="container about-container">
+        <div class="about-left">
+            <div class="about-img"></div>
+            <img src="./go.jpeg">
+        </div>
+        <div class="about-right">
+            <h2>About Me</h2>
+            <h3>I am here to tell about me to you!</h3>
+            <p>
+                I completed my Secondary School Certificate (SSC) <br>from Golden Rule E.M High School with a CGPA of 9.5.<br>I pursued my intermediate education at <br>Sri Chaitanya Jr.Kalasala, achieving a marks of 884.
+            </p>
+            <p>
+                Currently, I am pursuing a Bachelor of <br>Technology (B.Tech) degree at SRMUAP, <br>with an ongoing CGPA of 7.61, up to the second year.<br>I am currently undertaking an internship at Asterisc Technocrat Pvt.Ltd.
+            </p>
+            <a href="" class="btn">Read More</a>
+        </div>
+
+   </section>
+   <section id="Skills">
+    <div class="container container-skills">
+        <div class="skill-left">
+            <div class="skills-img">
+                <img src="./ne.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="skill-right">
+        <h2>Skills</h2>
+        <h3 class="tech">Technical Skills:</h3>
+        <p>
+            1.Programming languages(Java,Python,C,C++)<br>
+            2.Web development(HTML,CSS)<br>
+            3.problem solving skills <br>
+            4.Sql<br>
+            5.DataBase Management    
+        </p>
+        <h3>Soft Skills:</h3>
+        <p>
+            1.Communication skills(both verbal and written)<br>
+            2.Teamwork and collaboration<br>
+            3.Problem-solving and critical thinking<br>
+            4.Adaptability and flexibility<br>
+            5.Time management and organization<br>
+            6.Leadership
+        </p>
+    </div>
+   </section>
+   <section id="projects">
+    <div class="container project-container">
+        <div class="project-left">
+            <div class="project-img">
+                <img src="./pro.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="project-right">
+        <h2>Project</h2>
+        <h3>Mail Application</h3>
+        <p>
+            Mail Application : <br>Mail Application between <br>two people by using<br> GUI and Python<br>This code creates a simple email sender application using the smtplib library for sending emails and Tkinter for the
+            graphical user interface (GUI).<br>
+
+           ● Description:<br>
+            1. Firstly it Importing necessary modules<br> then we will write Function definition<br>
+            2. Then we will Creating and placing GUI widgets<br>Here we are Running the GUI.<br>Then it will show the some page <br>there we will give two peoples mailid's and we will write the mail then we can send it.  
+        </p>
+    </div>
+   </section>
+   <section id="Contact">
+    <div class="container contact-container">
+        <h2>Contact</h2>
+        <p>Phone: <a href="tel:123456789">7993555515</a></p>
+        <p>Email: <a href="mailto:example@example.com">nagacharitavyamadala116@gmail.com</a></p>
+        <p>Mandadam,Guntur District</p>
+    </div>
+  </section>
+   <script>
+    let NightIcon = document.querySelector('.Moon');
+    let LightIcon = document.querySelector('.Sun');
+    NightIcon.addEventListener('click',()=>{
+        NightIcon.style.display='none';
+        LightIcon.style.display='inline-block';
+        document.querySelector('body').classList.add('dark-Mood');
+    });
+    LightIcon.addEventListener('click',()=>{
+        NightIcon.style.display='inline-block';
+        LightIcon.style.display='none';
+        document.querySelector('body').classList.remove('dark-Mood');
+})
+   </script>
+   <script src="./portfolio.js"></script>
+</body>
+</html>
