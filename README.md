@@ -53,4 +53,12 @@ Overall, the code represents a basic structure for a portfolio website and can b
 **OUTPUT**
 https://www.linkedin.com/feed/update/urn:li:activity:7089260633430372352/
 
+## Contributing
+
+Contributions are welcome! Feel free to open issues or pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 
